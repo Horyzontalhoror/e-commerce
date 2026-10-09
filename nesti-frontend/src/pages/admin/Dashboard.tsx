@@ -156,10 +156,10 @@ export const AdminDashboard = () => {
                     >
                       <div>
                         <p className="font-medium">{product.name}</p>
-                        <p className="text-sm text-muted-foreground">Stock: {product.stock}</p>
+                        <p className="text-sm text-muted-foreground">Stok: {product.stock}</p>
                       </div>
                       <div className="text-right">
-                        <p className="text-sm text-red-600">Low Stock</p>
+                        <p className="text-sm text-red-600">Stok Rendah</p>
                       </div>
                     </div>
                   ))}
